@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_first"
+        android:checked="true"
+        android:icon="@drawable/ic_call"
+        android:title="添加/删除课程"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_second"
+        android:checked="false"
+        android:icon="@drawable/ic_chat"
+        android:title="修改学生成绩"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_third"
+        android:checked="false"
+        android:icon="@drawable/ic_contact"
+        android:title="添加学生信息"
+        app:showAsAction="ifRoom" />
+</menu>

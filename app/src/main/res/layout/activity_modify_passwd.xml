@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context="com.android.student.Activity.ModifyPasswdActivity">
+
+    <EditText
+        android:id="@+id/account_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="账号(学号)" />
+
+    <EditText
+        android:id="@+id/passwd_o"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="旧密码"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/passwd_n"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="新密码（长度小于20位)"
+        android:inputType="textPassword" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/commit_m"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="确定" />
+        <Button
+            android:id="@+id/cancel_m"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>
